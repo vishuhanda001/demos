@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    /* border: 3px solid red; */
+    /* background-color: #595959; */
+    height: 764px;
+    width: 1530px; 
+    /* margin-top: 20px; */
+} 
+
+.main .row1{
+    border: 1px solid green;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 300px;
+    width: 300px;
+    margin-bottom: 10px;
+float: left;
+}
+
+.main .row1 .col{
+    float: left;
+}
+
+.main .row1 .col1{
+    border: 1px solid blue;
+    height: 98px;
+    width: 98px;
+}
+.main .row1 .col1 img{
+    /* border: 1px solid blue; */
+    height: 98px;
+    width: 98px;
+}
+.main .row1 .col2 img{
+    /* border: 1px solid blue; */
+    height: 98px;
+    width: 98px;
+}
+.main .row1 .col3 img{
+    /* border: 1px solid blue; */
+    height: 98px;
+    width: 98px;
+}
+.main .row1 .col2{
+    border: 1px solid blue;
+    height: 98px;
+    width: 98px;
+}
+.main .row1 .col3{
+    border: 1px solid blue;
+    height: 98px;
+    width: 98px;
+}
+
+.main .row2{
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 10px;
+    border: 1px solid yellow;
+    height: 300px;
+    width: 300px;  
+    float: left;
+}
+
+.main .row2 img{
+    height: 100px;
+    width: 100px;
+    }
+
+.main .row3 {
+    clear: both;
+    border: 1px solid brown;
+    height: 200px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main .row3 .col{
+    border: 1px solid red;
+    height: 50px;
+    width: 50px;
+    padding: 2px;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: inline-block;
+}
+.main .row4 {
+    border: 1px solid green;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 180px;
+    width: 400px;
+}
+.main .row4 .rel{
+    margin-top: 10px;
+    position: relative;
+    border: 1px solid red;
+     height: 160px;
+    width: 380px; 
+    /* top: 10px;
+    left: 10px; */
+    
+}
+
+.main .row4 .rel .abs{
+    position: absolute;
+    border: 1px solid brown;
+    
+    
+}

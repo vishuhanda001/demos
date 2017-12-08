@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+
+.toggle-btn{
+    width: 80px;
+    height: 40px;
+    background-color: gray;
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out;
+    padding: 5px;
+}
+
+.toggle-btn > .inner-circle{
+width: 40px;
+height: 40px;
+background-color: white;
+border-radius: 50%;
+transition: all 0.3s ease-in-out;
+}
+
+.toggle-btn.active{
+    background-color: #00acee;
+    transition: all 0.3s ease-in-out;
+}
+.toggle-btn.active >.inner-circle{
+    margin-left: 40px;
+    transition: all 0.3s ease-in-out;
+}

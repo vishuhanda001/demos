@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.cir1{
+    position: relative;
+    background-color:  #696969;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    height: 100px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cir1 > .cir2{
+position: absolute;
+top: 15px;
+border-top-left-radius: 100px;
+border-top-right-radius: 100px;
+width: 185px;
+height: 85px;
+background-color: white;
+left: 7.5px;
+
+}
+.cir1 > .volup{
+position: absolute;
+top: 94px;
+left: -4px;
+width: 20px;
+height: 20px;
+background-color: blue;
+z-index: 1;
+border-radius: 100%;
+
+}
+
+.cir1 > .voldown{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    bottom: -14px;
+    right: -4px;
+    z-index: 1;
+    border-radius: 100%;
+}
+.cir1 > .voldown >button,.cir1 > .volup> button{
+    position: absolute;
+    color: white;
+    width: 15px;
+    height: 15px;
+    border: none;
+    outline: none;
+    background-color: 	#424242;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    left: 2.5px;
+    top: 2.5px;
+    border-radius: 100%;
+
+}
