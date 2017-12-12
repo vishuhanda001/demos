@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.nav{
+    position: relative;
+    width: 100%;
+    height: 80px;
+    padding: 20px 0px;
+    box-sizing: border-box;
+    text-align: right;
+    background-color: lightgray;
+}
+.nav .myinput{
+    position: absolute;
+    width:20%;
+    right: 5%;
+    height: 40px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    padding: 0px 80px 0px 10px;
+    color: gray; 
+}
+.nav .myinput::-webkit-input-placeholder{
+    color: gray;
+}
+.nav .mybtn{
+    position: absolute;
+    width:19%;
+    right: 5%;
+    height: 40px;
+    box-sizing: border-box;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border: none;
+    color: white;
+    transition: width 0.5s ;
+}
+
+.nav .addbtn{
+    position: absolute;
+    width:5%;
+    right: 5%;
+    height: 40px;
+    box-sizing: border-box;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border: none;
+    color: white;
+    /* transition: right 0.5s; */
+}

@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: green;
+    width: 100%;
+    padding: 40px 0;
+    text-align: center;
+    color: white;
+    box-sizing: border-box;
+}
+.menu{
+    width: 100%;
+    background-color: #013220;
+    color: white;
+    padding: 10px 5px;
+    display: none;
+}
+
+.navbar{
+    background-color: darkgreen;
+    box-sizing: border-box;
+    
+}
+.navbar ul{
+    text-align: center; 
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out;
+    -webkit-transition: max-height 0.5s;
+    -ms-transition: max-height 0.5s;
+    -moz-transition: max-height 0.5s;
+    -o-transition: max-height 0.5s;
+    
+}
+.navbar ul li{
+    display: inline-block;
+    padding: 30px 30px;    
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar ul li:hover{
+    background-color: #013220;
+}
+
+.done{
+ background-color: red;
+ box-sizing: border-box;
+ width: 20%;
+ height: 100px;
+ transition: height 2s ease-in-out;
+}
+.done:hover{
+    background-color: red;
+    box-sizing: border-box;
+    width: 20%;
+    height: 200px;
+   }
+@media screen and (max-width:480px){
+    .menu{
+        display: block;
+    }
+    .navbar ul{
+        max-height: 0px;
+        display: none;
+     
+    }
+    .navbar ul.shownav{
+        max-height: 314px;
+        display: block;         
+    }
+    .navbar ul li{
+        display: block;
+    }
+    
+
+}
+
+
+
+

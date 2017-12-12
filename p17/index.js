@@ -1,0 +1,11 @@
+document.getElementsByClassName("myinput")[0]
+.addEventListener("keydown",(e)=>{
+    if(e.target.value.toString().length<=0){
+        document.getElementsByClassName("mybtn")[0]
+        .classList.remove("addbtn");
+    }
+    else{
+        document.getElementsByClassName("mybtn")[0]
+        .classList.add("addbtn");
+    }
+})

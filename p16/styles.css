@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width:580px){
+
+.menu{
+    box-sizing: border-box;
+    background-color: lightgreen;
+    padding: 15px 5px;
+    /* color: white; */
+}
+
+.navbar{
+    background-color: green;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+}
+.navbar ul{
+    display: none;
+    height: 0px;   
+}
+
+.navbar ul.add{
+    display: block;
+}
+.navbar ul li{
+    padding: 15px 0px;
+    background-color: green;
+}
+.navbar ul li:hover{
+    padding: 15px 0px;
+    background-color: darkgreen;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+}

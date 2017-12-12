@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.navbar{
+    border: 2px solid green;
+    /* height: 50px; */
+}
+
+.divs{
+    border: 3px solid red;
+    margin: 2px;
+    float: left;
+}
+.logo{
+    float: right;
+}
+
+.newdiv{
+    border: 3px solid red;
+    clear: both;
+}

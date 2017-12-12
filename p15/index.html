@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="header">
+        <h1>This is The header</h1>
+    </div>
+    <div class="menu">menu</div>
+    <div class="navbar">
+        <ul>
+            <li>
+                <a href="">Home</a>
+            </li>
+            <li>
+                <a href="">About</a>
+            </li>
+            <li>
+                <a href="">Services</a>
+            </li>
+            <li>
+                <a href="">Contact</a>
+            </li>
+        </ul>
+    </div>
+    <div class="done"></div>
+
+</body>
+<script>
+    var menu = document.getElementsByClassName("menu")
+    menu[0].addEventListener(('click'), (data) => {
+        document.getElementsByTagName("ul")[0].classList.toggle("shownav");
+    })
+
+    document.getElementsByClassName("done")[0]
+    .addEventListener(('click'),(data)=>{
+        document.getElementsByClassName("done")[0].classList.toggle("doneme");
+    })
+</script>
+
+</html>
