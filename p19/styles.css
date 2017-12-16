@@ -55,8 +55,6 @@
 
 .empty{
 padding-top: 100px;
-overflow: hidden;
-clear: both;
 }
 
 
@@ -78,7 +76,7 @@ clear: both;
     height: 75px;
 }
 .songs .cards:first-of-type{
-    margin-top: -10px;
+    margin-top: 0px;
 }
 .songs .cards:last-of-type{
     margin-bottom: 0px;
@@ -86,7 +84,7 @@ clear: both;
 .songs .cards img{
     position: absolute;
     width: 25%;
-    margin-top: 2px;
+    margin-top: 7px;
     height: 55px;
     margin-left: 2.5px;
     border: 1px solid red;
@@ -99,6 +97,15 @@ clear: both;
     background-color: white;
     left: 35%;
     top: 24%;
+}
+.songs .cards .songtitle i{
+    position: absolute;
+    background-color: white;
+    display: inline;
+    left: 83%;
+    top: 21%;
+    font-size: 40px;
+    color: gray
 }
 
 
